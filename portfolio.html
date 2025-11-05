@@ -1,0 +1,113 @@
+sorrow, [05.11.2025 11:32]
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио | Мой Портфолио</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Мое Портфолио</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Главная</a>
+                <a href="about.html" class="nav-link">Обо мне</a>
+                <a href="services.html" class="nav-link">Услуги</a>
+                <a href="portfolio.html" class="nav-link active">Портфолио</a>
+                <a href="contact.html" class="nav-link">Контакты</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Мои работы</h1>
+            <p>Примеры проектов, которые я реализовал</p>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="web">Веб-сайты</button>
+                <button class="filter-btn" data-filter="app">Приложения</button>
+                <button class="filter-btn" data-filter="design">Дизайн</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <div class="placeholder-text">Проект 1</div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Корпоративный сайт</h3>
+                        <p>Современный адаптивный сайт для компании с системой управления контентом.</p>
+                        <a href="#" class="btn btn-small">Подробнее</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <div class="placeholder-text">Проект 2</div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Мобильное приложение</h3>
+                        <p>Кроссплатформенное приложение для управления задачами и проектами.</p>
+                        <a href="#" class="btn btn-small">Подробнее</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <div class="placeholder-text">Проект 3</div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>UI/UX дизайн</h3>
+                        <p>Полный редизайн пользовательского интерфейса для SaaS-платформы.</p>
+                        <a href="#" class="btn btn-small">Подробнее</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+
+sorrow, [05.11.2025 11:32]
+<div class="placeholder-text">Проект 4</div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Интернет-магазин</h3>
+                        <p>Электронная коммерция с системой управления заказами и платежами.</p>
+                        <a href="#" class="btn btn-small">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Мое Портфолио. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
